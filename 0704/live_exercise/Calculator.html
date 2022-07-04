@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="Calculator.js"></script>
+  </head>
+  <body>
+    <h1>계산기</h1>
+    <p>
+      <button onclick="numberHandler(1)" value="1">1</button>
+      <button onclick="numberHandler(2)" value="2">2</button>
+      <button onclick="numberHandler(3)" value="3">3</button>
+      <button onclick="numberHandler(4)" value="4">4</button>
+      <button onclick="numberHandler(5)" value="5">5</button>
+      <button onclick="numberHandler(6)" value="6">6</button>
+      <button onclick="numberHandler(7)" value="7">7</button>
+      <button onclick="numberHandler(8)" value="8">8</button>
+      <button onclick="numberHandler(9)" value="9">9</button>
+      <button onclick="numberHandler(0)" value="0">0</button>
+    </p>
+    <p>
+      <button onclick="numberHandler('+')" value="+">+</button>
+      <button onclick="numberHandler('-')" value="-">-</button>
+      <button onclick="numberHandler('*')" value="*">*</button>
+      <button onclick="numberHandler('/')" value="/">/</button>
+      <button onclick="numberHandler('%')" value="%">%</button>
+    </p>
+    <div class="result">결과값 :</div>
+  </body>
+</html>
